@@ -92,7 +92,7 @@ export default function App() {
           <ul style={{ listStyle: "none", marginLeft: "4.6rem" }}>
             {currentGenre.data.map((item, index) => {
               return (
-                <li key={`list-item-${index}`} className="listStyle">
+                <li className="listStyle">
                   <div>{item.name}</div>
                   <div>{item.rating}</div>
                 </li>
